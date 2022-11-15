@@ -38,7 +38,7 @@
         <div class="container">
             <!-- Left -->
             <div class="left">
-                <a href="#" class="profile">
+                <a class="profile">
                     <div class="profile-photo">
                         <img src="./images/cheemslogo.png">
                     </div>
@@ -59,8 +59,8 @@
                         <span><i class="uil uil-compass"></i></span>
                         <h3>Explore</h3>
                     </a>
-                    <a class="menu-items">
-                        <span><i class="uil uil-bell"></i></span>
+                    <a class="menu-items" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">7+</small></i></span>
                         <h3>Notifications</h3>
                         <!-- Notificcation Popup -->
                         <div class="notifications-popup">
@@ -136,9 +136,9 @@
                             </div>
                         </div>
                     </a>
-                    <a class="menu-items">
-                        <span><i class="uil uil-envelope"></i></span>
-                        <h3>Message</h3>
+                    <a class="menu-items" id="messages-notifications">
+                        <span><i class="uil uil-envelope"><small class="notification-count">4</small></i></span>
+                        <h3>Messages</h3>
                     </a>
                     <a class="menu-items ">
                         <span><i class="uil uil-bookmark"></i></span>
@@ -157,6 +157,8 @@
                         <h3>Settings</h3>
                     </a>
                 </div>
+                <!-- SideBar End -->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
             </div>
             <!-- Middle -->
             <div class="middle"></div>
